@@ -116,23 +116,23 @@ def warpTriangle(img1, img2, t1, t2) :
 if __name__ == '__main__' :
    
   
-    filename2= 'images/hillary_clinton.jpg'
-    filename1 = 'images/8.jpeg'
+    filename2= '11.jpg'
+    filename1 = '2.jpeg'
     
-    img1 = cv2.imread(filename1);
-    img2 = cv2.imread(filename2);
+    img1 = cv2.imread('images/'+filename1);
+    img2 = cv2.imread('images/'+filename2);
     img1Warped = np.copy(img2);    
 
 
     try:
         points1 = readPoints('text/'+filename1 + '.txt')
     except:        
-        mainFunction(filename1)  
+        mainFunction('images/'+filename1)  
         points1 = readPoints('text/'+filename1 + '.txt')
     try:
         points2 = readPoints('text/'+filename2 + '.txt')
     except:
-        mainFunction(filename2)              
+        mainFunction('images/'+filename2)              
         points2 = readPoints('text/'+filename2 + '.txt')
 
     hull1 = []
