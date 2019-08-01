@@ -4,13 +4,10 @@ In this repo , I made face swaping/morphing using python and basic facial landma
 ```
 # Samples
 
-![](https://github.com/bansal-dhruv/Neural_Style_Transfer/blob/master/Sample/1.png)
-
-
-![](https://github.com/bansal-dhruv/Neural_Style_Transfer/blob/master/Sample/2.png)
-
-
-![](https://github.com/bansal-dhruv/Neural_Style_Transfer/blob/master/Sample/3.png)
+![](https://github.com/bansal-dhruv/Face_Morphing/blob/master/Sample/s2.png.png)
+![](https://github.com/bansal-dhruv/Face_Morphing/blob/master/Sample/s3.png.png)
+![](https://github.com/bansal-dhruv/Face_Morphing/blob/master/Sample/s4.png.png)
+![](https://github.com/bansal-dhruv/Face_Morphing/blob/master/Sample/s1.png.png)
 
 
 ## All the pull request are welcome
