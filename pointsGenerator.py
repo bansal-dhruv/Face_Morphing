@@ -40,7 +40,15 @@ def mainFunction(filename):
 		
 		# for i in range(len(shape)):
 		# 	cv2.circle(image, (convexpointsx[i],convexpointsy[i] ), 3, (0, 0, 255), -1)
-		file1 = open('text/'+filename+".txt","w") 
+		for i in range(len(filename)):
+			print(i)
+			print(filename[i])
+			if(filename[i]=='/'):
+				filename=filename[i:]
+				break
+
+
+		file1 = open('text'+filename+".txt","w") 
 		for i in range(len(shape)):
 			data=str(shape[i][0])+" "+str(shape[i][1])+"\n"
 			file1.write(data)
