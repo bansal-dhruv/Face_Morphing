@@ -16,11 +16,6 @@ Now,I am trying to add this over mp4 video.
 ## Example 2
 ![](https://github.com/bansal-dhruv/Face_Morphing/blob/master/Sample/s3.png)
 
-## Example 3
-![](https://github.com/bansal-dhruv/Face_Morphing/blob/master/Sample/s4.png)
-
-## Example 4
-![](https://github.com/bansal-dhruv/Face_Morphing/blob/master/Sample/s1.png)
 
 
 ## All the pull request are welcome
